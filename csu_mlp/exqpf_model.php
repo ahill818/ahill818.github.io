@@ -87,6 +87,15 @@
 		      	</div> 
 		    </div>
 	    </nav>
+  <?php
+      if (isset ($_GET['id'])){
+        $id = ($_GET['id']);
+      } else {
+        $id = "csu_ari_ml_gefso_day3_110312";
+      }
+    $imglink = $id.".png";
+      ?><img src="../figures/<?php echo $imglink; ?>" height=700px width=800px/>
+
 	</div> <!-- container -->
   </body>
 </html>
