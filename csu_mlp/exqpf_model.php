@@ -93,8 +93,8 @@
       } else {
         $id = "csu_ari_ml_gefso_day3_110312";
       }
-    $imglink = $id.".png";
-      ?><img src="../figures/<?php echo $imglink; ?>" height=700px width=800px/>
+    $imglink = $id.".png"; ?>
+  <img src="../figures/20191103/<?php echo $imglink; ?>" height=700px width=800px/>
 
 	</div> <!-- container -->
   </body>
