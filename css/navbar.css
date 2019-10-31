@@ -1,0 +1,44 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.jumbotron img {
+  height: 250px;
+  width: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron .btn {
+	margin-bottom: 4px;
+}
+
+.col-md-4 {
+	border: thin;
+}
+
+.thumbnail img {
+	width: 400px;
+}
+
+.caption li {
+	list-style-type: none;
+}
+
+.bg .jumbotron {
+	background-image: url(../assets/images/vortexse.jpg);
+ 	background-repeat: no-repeat;
+	width: auto;
+}
+
+.scroll-menu {
+    height: auto;
+    max-height: 500px;
+    overflow-x: hidden;
+}

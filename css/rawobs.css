@@ -1,0 +1,42 @@
+table,td
+{
+border:1px solid;
+border-color:#BDBDBD #8B8878;
+text-align:center;
+padding:0;
+font-family: Arial;
+font-size:10pt;
+}
+table
+{
+border-collapse:collapse;
+width:100%;
+}
+tr:hover{background-color:#FEFFF1; }
+td.header{background-color:white; vertical-align:center;  font-size:90%; padding-bottom:5px; padding-top:0; border:1px solid;
+border-color:#BDBDBD #8B8878;}
+td.message{text-align:center; font-weight:700;font-size:90%;}
+td.station{text-align:center;font-size:60%; font-weight:bold;}
+td.normal{text-align:center;font-size:90%;}
+td.rh1{font-style:oblique;  font-weight:bold;  text-align:center; font-size:90%;}
+td.rh2{font-style:oblique; color:firebrick; font-weight:bold; text-align:center; font-size:90%;}
+td.rh3{font-style:oblique; font-weight:bold; color:green; text-align:center; font-size:90%;}
+td.cool{text-align:center; background-color:lightblue; font-style:italic;font-size:90%;}
+td.hot{text-align:center; background-color:#EC8E8A; font-weight:bold;}
+td.freeze{text-align:center; background-color:#cae1ff; font-weight:bold; font-size:90%;}
+td.froze{text-align:center; background-color:deepskyblue; font-size:90%;}
+td.blow{text-align:center; font-weight:bold; font-size:90%;}
+td.blowing{text-align:center; background-color:#DE9BE1; font-weight:bold;}
+td.blank{background-color:grey; color:white; opacity:0.2; filter:alpha(opacity=20); font-size:90%;}
+td.verydry{text-align:center;font-size:90%; background-color:#F1B77D;font-weight:bold;}
+td.dry{text-align:center;font-size:90%; background-color:#FFFF66;font-weight:bold;}
+td.moist{text-align:center; background-color:#B0CBA3;font-weight:bold;}
+td.wet{text-align:center;font-size:90%; background-color:#00FF00;font-weight:bold;}
+td.soaked{text-align:center;font-size:90%; background-color:#00CC00;font-weight:bold;}
+
+/*tablesort css*/
+
+/*table.tablesorter thead tr .header {background-image: url(images/bg.png); background-repeat: repeat-x; background-position: bottom right; cursor: pointer;}
+table.tablesorter thead tr .headerSortUp {background-image: url(images/asc.gif);background-repeat:no-repeat;background-position: bottom right;}
+table.tablesorter thead tr .headerSortDown {background-image: url(images/desc.gif);background-repeat:no-repeat;background-position: bottom right;}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {	background-color: #8dbdd8;}*/
