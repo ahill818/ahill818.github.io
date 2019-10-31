@@ -51,44 +51,43 @@
               			<span class="icon-bar"></span>
               			<span class="icon-bar"></span>
             		</button>
-            		<a class="navbar-brand" href="index.php">Vortex SE</a>
+            		<a class="navbar-brand" href="index.php">CSU-MLP</a>
           		</div>
           		<div id="navbar" class="navbar-collapse collapse">                                   
             		<ul class="nav navbar-nav">  
-              			<li class="dropdown">
+              			<li>
                 			<a href="nssl_verif.html">GEFS Day 1 Forecasts</a>
               			</li>
             		</ul>     
                 <ul class="nav navbar-nav">  
-                    <li class="dropdown">
+                    <li>
                       <a href="nssl_verif.html">GEFS Day 2 Forecasts</a>
                     </li>
                 </ul>    
                 <ul class="nav navbar-nav">  
-                    <li class="dropdown">
+                    <li>
                       <a href="nssl_verif.html">GEFS Day 3 Forecasts</a>
                     </li>
                 </ul>                                   
             		<ul class="nav navbar-nav">  
-              			<li class="dropdown">
+              			<li>
                 			<a href="nssl_verif.html">GEFS Verification</a>
               			</li>
             		</ul>                                           
             		<ul class="nav navbar-nav">  
-              			<li class="dropdown">
+              			<li>
                 			<a href="nssl_fcsts.html">NSSL Day 1 Forecasts</a>
               			</li>
             		</ul>                                          
             		<ul class="nav navbar-nav">  
-              			<li class="dropdown">
+              			<li>
                 			<a href="nssl_verif.html">NSSL Verification</a>
               			</li>
             		</ul>         
 		      	</div> 
-		    </div>
+		    </div> 
 	    </nav>
-  <?php
-      if (isset ($_GET['id'])){
+  <?php if (isset ($_GET['id'])){
         $id = ($_GET['id']);
       } else {
         $id = "csu_ari_ml_gefso_day3_110312";
@@ -96,7 +95,7 @@
     $imglink = $id.".png"; ?>
   <img src="../figures/20191103/<?php echo $imglink; ?>" height=700px width=800px/>
 
-	</div> <!-- container -->
+	</div>
   </body>
 </html>
 
